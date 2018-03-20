@@ -1,0 +1,745 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bat",
+				"batch_num\tparam"
+			],
+			[
+				"max",
+				"max_len\tstatement"
+			],
+			[
+				"padt",
+				"padded_truths\tstatement"
+			],
+			[
+				"pad",
+				"pad_scan\tstatement"
+			],
+			[
+				"padd",
+				"padded_scans\tstatement"
+			],
+			[
+				"sc",
+				"scans1"
+			],
+			[
+				"Conv",
+				"Conv3DTranspose\tclass"
+			],
+			[
+				"ker",
+				"kernal_size1\tstatement"
+			],
+			[
+				"co",
+				"conv3D\tmodule"
+			],
+			[
+				"diff",
+				"difference_slice\tstatement"
+			],
+			[
+				"min",
+				"min_val\tstatement"
+			],
+			[
+				"mi",
+				"min_val\tstatement"
+			],
+			[
+				"hid",
+				"hid_bias_gradient\tstatement"
+			],
+			[
+				"em",
+				"embed_to_hid_weights_gradient"
+			],
+			[
+				"nu",
+				"numhid2"
+			],
+			[
+				"numh",
+				"numhid1"
+			],
+			[
+				"hidde",
+				"hidden_layer_state\tstatement"
+			],
+			[
+				"input",
+				"inputs_to_softmax\tstatement"
+			],
+			[
+				"inpu",
+				"inputs"
+			],
+			[
+				"pci",
+				"pickle_data\tparam"
+			],
+			[
+				"pe",
+				"pet_scan"
+			],
+			[
+				"pick",
+				"pickle_data\tparam"
+			],
+			[
+				"pic",
+				"pickle_data\tparam"
+			],
+			[
+				"scan",
+				"scan_id\tparam"
+			],
+			[
+				"pet",
+				"pet_scan\tparam"
+			],
+			[
+				"dif",
+				"difference_slice\tstatement"
+			],
+			[
+				"rec",
+				"reconstructed_slice\tstatement"
+			],
+			[
+				"in",
+				"input_img\tstatement"
+			],
+			[
+				"B",
+				"BatchNormalization\tmodule"
+			],
+			[
+				"test",
+				"test_num\tstatement"
+			],
+			[
+				"dec",
+				"decoded_imgs\tstatement"
+			],
+			[
+				"ts",
+				"test_generator2\tstatement"
+			],
+			[
+				"pati",
+				"patient_id\tstatement"
+			],
+			[
+				"patie",
+				"patient_id"
+			],
+			[
+				"pat",
+				"patient_id"
+			],
+			[
+				"mat",
+				"mat_file_path\tstatement"
+			],
+			[
+				"pa",
+				"patient_id\tstatement"
+			],
+			[
+				"ext",
+				"extract_scans\tfunction"
+			],
+			[
+				"ou",
+				"output_dir\tparam"
+			],
+			[
+				"load",
+				"load_model"
+			],
+			[
+				"sh",
+				"shuffled_test"
+			],
+			[
+				"gen",
+				"generator"
+			],
+			[
+				"tr",
+				"train_files\tstatement"
+			],
+			[
+				"val",
+				"validation_generator\tstatement"
+			],
+			[
+				"num",
+				"num_batches\tstatement"
+			],
+			[
+				"tra",
+				"training_generator\tstatement"
+			],
+			[
+				"data",
+				"data_generator\tmodule"
+			],
+			[
+				"cu",
+				"cutoff_2\tstatement"
+			],
+			[
+				"batch",
+				"batch_files\tparam"
+			],
+			[
+				"shuffle",
+				"shuffled_ids\tstatement"
+			],
+			[
+				"files",
+				"files_temp\tparam"
+			],
+			[
+				"pickle",
+				"pickle_files\tstatement"
+			],
+			[
+				"pickl",
+				"pickle_files\tstatement"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"x",
+				"x_test\tstatement"
+			],
+			[
+				"sli",
+				"slices\tstatement"
+			],
+			[
+				"cut",
+				"cutoff_2\tstatement"
+			],
+			[
+				"get",
+				"get_autoencoder\tfunction"
+			],
+			[
+				"sl",
+				"slices\tstatement"
+			],
+			[
+				"file",
+				"file_slices\tstatement"
+			],
+			[
+				"qui",
+				"quick_samples\tstatement"
+			],
+			[
+				"sa",
+				"save_ngtv_slices"
+			],
+			[
+				"outp",
+				"output_dir"
+			],
+			[
+				"pst",
+				"pstv_slice_coordinates\tstatement"
+			],
+			[
+				"ps",
+				"pstv_slice_coordinates\tstatement"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"out",
+				"output_dir\tparam"
+			],
+			[
+				"ge",
+				"get_files\tfunction"
+			],
+			[
+				"res",
+				"reshape"
+			],
+			[
+				"this",
+				"this_case\tstatement"
+			],
+			[
+				"las",
+				"last_timestamp"
+			],
+			[
+				"Fil",
+				"FileNotFoundError\tclass"
+			],
+			[
+				"exc",
+				"except"
+			],
+			[
+				"ex",
+				"exchange"
+			],
+			[
+				"exch",
+				"exch_sym_dict\tparam"
+			],
+			[
+				"last",
+				"last_timestamp\tstatement"
+			],
+			[
+				"ticks",
+				"ticks_df"
+			],
+			[
+				"sym",
+				"symbol\tparam"
+			],
+			[
+				"initial",
+				"initialize_all_variables\tfunction"
+			],
+			[
+				"L",
+				"LOG_DIR\tstatement"
+			],
+			[
+				"log",
+				"log_dir"
+			],
+			[
+				"loss",
+				"loss_value\tstatement"
+			],
+			[
+				"optim",
+				"optimize"
+			],
+			[
+				"bias",
+				"bias_full_connect2\tstatement"
+			],
+			[
+				"wei",
+				"weight_full_connect2\tstatement"
+			],
+			[
+				"p",
+				"prep_data\tmodule"
+			],
+			[
+				"loa",
+				"load_data\tfunction"
+			],
+			[
+				"trai",
+				"train_labels\tstatement"
+			],
+			[
+				"pi",
+				"pickle_file\tstatement"
+			],
+			[
+				"str",
+				"structure\tstatement"
+			],
+			[
+				"sti",
+				"stippled_underline"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.tex",
+			"settings":
+			{
+				"buffer_size": 5960,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		]
+	],
+	"build_varint": "XeLaTeX",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "ma",
+		"selected_items":
+		[
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"bib",
+				"Set Syntax: BibLaTeX"
+			],
+			[
+				"late",
+				"Build With: LaTeX - XeLaTeX"
+			],
+			[
+				"latex",
+				"Build With: LaTeX - XeLaTeX"
+			],
+			[
+				"lated",
+				"LaTeXTools: Delete temporary files"
+			],
+			[
+				"lat",
+				"Build With: LaTeX - PdfLaTeX"
+			],
+			[
+				"latex bu",
+				"Build With: LaTeX - Basic Builder - XeLaTeX"
+			],
+			[
+				"la",
+				"Build With: LaTeX"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 409.0
+	},
+	"console":
+	{
+		"height": 137.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/c1304586/Presentations/BitcoinBlockchain"
+	],
+	"file_history":
+	[
+		"/home/c1304586/Projects/PhD/pet_nn/pet_nn_test.py",
+		"/home/c1304586/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/c1304586/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/c1304586/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/c1304586/Presentations/Bitcoin101/Notes.html",
+		"/home/c1304586/Presentations/Bitcoin101/Bitcoin101",
+		"/home/c1304586/Projects/PhD/pet_nn/pet_nn_train.py",
+		"/home/c1304586/Projects/PhD/pet_nn/data_generator.py",
+		"/home/c1304586/Projects/PhD/pet_nn/__init__.py",
+		"/home/c1304586/Projects/PhD/autoencoder/positive_slices/B023733.pickle",
+		"/home/c1304586/Projects/PhD/autoencoder/autoencoder.py",
+		"/home/c1304586/Projects/PhD/autoencoder/data_generator.py",
+		"/home/c1304586/Projects/PhD/autoencoder/data_prep.py",
+		"/home/c1304586/Projects/PhD/Data/MatlabPickle.py",
+		"/home/c1304586/Projects/PhD/Data/PET_DATA/PET_VOI_U292388.mat",
+		"/home/c1304586/Projects/PhD/Data/PET_DATA/STAGEbb.csv",
+		"/home/c1304586/Projects/PhD/autoencoder/__init__.py",
+		"/home/c1304586/Projects/PhD/Data/__init__.py",
+		"/home/c1304586/Projects/PhD/.sublime-project",
+		"/home/c1304586/.config/sublime-text-3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/home/c1304586/.config/sublime-text-3/Packages/User/pep8_autoformat.sublime-settings",
+		"/home/c1304586/Projects/CryptoData/DataCollector.py",
+		"/home/c1304586/Projects/crypto/.autoxsh",
+		"/home/c1304586/Projects/PhD/charrec/main.py",
+		"/home/c1304586/Projects/PhD/charrec/models/conv_nn.py",
+		"/home/c1304586/Projects/PhD/charrec/data/prep_data.py",
+		"/home/c1304586/Projects/PhD/charrec/.sublime-project",
+		"/home/c1304586/Projects/PhD/charrec/models/basic_model.py",
+		"/home/c1304586/Projects/PhD/charrec/models/__init__.py",
+		"/home/c1304586/Projects/PhD/charrec/charrec.project",
+		"/home/c1304586/Projects/PhD/charrec/src/main.py",
+		"/home/c1304586/Projects/PhD/charrec/src/models/__init__.py",
+		"/home/c1304586/Projects/PhD/charrec/src/models/conv_nn.py",
+		"/home/c1304586/Projects/PhD/charrec/src/models/train_model.py",
+		"/home/c1304586/Projects/PhD/charrec/src/data/make_dataset.py",
+		"/home/c1304586/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/c1304586/Projects/PhD/test_pickle",
+		"/home/c1304586/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/c1304586/Projects/PhD/MatlabIO.py",
+		"/home/c1304586/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/c1304586/Desktop/PET_DATA/Test.csv",
+		"/home/c1304586/Desktop/PET_DATA/STAGEbb.csv",
+		"/home/c1304586/Desktop/PET_DATA/RadiomicsTextureResults.csv",
+		"/etc/shells",
+		"/home/c1304586/local_settings.xsh",
+		"/home/c1304586/Desktop/PET_DATA/0.5Hist.csv",
+		"/home/c1304586/Desktop/PET_DATA/64Bins.csv",
+		"/home/c1304586/Projects/Udacity/.autoxsh",
+		"/home/c1304586/Projects/1_notmnist.ipynb",
+		"/tmp/mozilla_c13045860/deposits_withdrawals_KTP_1508842175.csv",
+		"/home/c1304586/Projects/PyCon17Talk/main.tex",
+		"/home/c1304586/dotfiles/xonsh/local_settings.xsh.example",
+		"/home/c1304586/dotfiles/install.sh",
+		"/home/c1304586/.xonshrc",
+		"/home/c1304586/.bashrc"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 109.0
+	},
+	"pinned_build_system": "",
+	"project": "BitcoinBlockchain.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

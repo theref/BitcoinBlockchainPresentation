@@ -1,0 +1,226 @@
+\documentclass{beamer}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{minted}
+\usemintedstyle[python]{solarizedlight}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows}
+\usetheme{metropolis}
+\usepackage[backend=biber]{biblatex}
+\bibliography{BitcoinBlockchain}
+
+
+\title{An introduction to Bitcoin and Blockchains}
+\author{James Campbell}
+\institute[Cardiff University]
+  {
+  Department of Mathematics\\
+  Cardiff University
+  }
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+\section{History and Background}
+
+
+\begin{frame}{Bitcoin: The first Blockchain}
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{itemize}
+      \item Outlined in October 2008 by Satoshi Nakamoto \cite{Nakamoto}
+      \item Network online January 2009 \cite{GenesisBlock}
+      \item First transaction for physical goods in May 2010
+    \end{itemize}
+  \end{column}
+  \begin{column}{0.5\textwidth} 
+    \begin{center}
+      \includegraphics[width=0.9\textwidth]{images/the_times.jpg}
+    \end{center}
+  \end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Definition}
+\emph{A Transparent, Public, Distributed, Append-Only Ledger}\\ - Unknown
+\end{frame}
+
+
+\begin{frame}{The Ledger}
+\begin{center}
+  \begin{tabular}{llr} \toprule
+    From & To & Amount (£)\\
+    \midrule
+    & \dots & \\
+    Amy & Ben & 13.65 \\
+    Ben & Tesco & 1.01 \\
+    Lidl & Amy & 492.50 \\
+    & \dots & \\
+  \end{tabular}
+\end{center}
+\end{frame}
+
+
+\section{Tell Me More...}
+
+
+\begin{frame}{Hash Function}
+\emph{A hash function is any function that can be used to \alert{securely} map data of arbitrary size to data of fixed size.}\\
+\\
+Cryptographic Hash Functions have some useful properties:
+\begin{itemize}
+  \item Deterministic and Fast
+  \item Non-Invertible
+  \item Collision Resistant
+  \item Avalanche Effect
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{A Block}
+\begin{itemize}
+  \item An Index
+  \item Some Data
+  \item Nonce
+  \item Hashable
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Mining a Block}
+A Block is not \alert{valid} unless it's Hash satisfies a certain criteria.
+\end{frame}
+
+
+\begin{frame}{A Blockchain}
+Link Blocks together (in a chain) by including the Hash of the previous Block.\\
+\\
+\pause
+What happens if an attacker attempts to edit some previous data?
+\end{frame}
+
+
+\section{Tell Me More...}
+
+
+\begin{frame}{The Blockchain Process}
+\begin{enumerate}
+  \item A user creates an addition to the ledger \pause
+  \item This is broadcast to the entire network \pause
+  \item Nodes in the network attempt to create a Block \pause
+  \item The new Block is added to the Blockchain and broadcast to the Network \pause
+  \item The process repeats \pause
+\end{enumerate}
+
+\alert{Nodes in the network use the longest Blockchain available}
+\end{frame}
+
+
+\begin{frame}{A Malicious Node}
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, minimum height=2em, minimum width=2em]
+\tikzstyle{bblock} = [draw, fill=red!20, rectangle, minimum height=2em, minimum width=2em]
+
+\begin{center}
+  \begin{tikzpicture}[auto, node distance=1.5cm,>=latex']
+    \node [coordinate] (start) {};
+    \node [block, right of=start] (block1) {$B_1$};
+    \node [block, right of=block1] (block2) {$B_2$};
+    \node [block, right of=block2] (block3) {$B_3$};
+    \node [block, right of=block3] (block4) {$B_4$};
+    \node [block, right of=block4] (block5) {$B_5$};
+    \node [coordinate, right of=block5] (out) {};
+
+    \node [coordinate, below of=block2] (fork) {};
+
+    \node [bblock, below of=block3] (block3m) {$\hat{B_3}$};
+    \node [bblock, below of=block4] (block4m) {$\hat{B_4}$};
+    \node [bblock, below of=block5] (block5m) {$\hat{B_5}$};
+    \node [coordinate, below of=out] (outm) {};
+
+    \draw [->] (start) -- (block1);
+    \draw [->] (block1) -- (block2);
+    \draw [->] (block2) -- (block3);
+    \draw [->] (block3) -- (block4);
+    \draw [->] (block4) -- (block5);
+    \draw [->] (block5) -- (out);
+
+    \draw [->] (block2) -- (fork) -- (block3m);
+    \draw [->] (block3m) -- (block4m);
+    \draw [->] (block4m) -- (block5m);
+    \draw [->] (block5m) -- (outm);
+  \end{tikzpicture}
+\end{center}
+\pause
+\alert{The network is secure provided that no single malicious attacker controls more than half the hashing power.}
+\end{frame}
+
+
+\section{Tell Me More About Bitcoin...}
+
+
+\begin{frame}{Unanswered Issues}
+\begin{itemize}
+  \item What incentive is there for Good nodes?
+  \item How are Bitcoins created?
+  \item Proof of Ownership
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Coinbase Transaction}
+Every Block includes a transaction that has \alert{no sender}, only a recipient.\pause
+\\
+\\
+The recipient is the Node that found the correct Nonce to validate the Block.\pause
+\\
+\\
+Called the Block Reward (which decreases over time).
+\end{frame}
+
+
+\begin{frame}{Public/Private Key Pairs}
+Bitcoin addresses are \alert{Public Keys}.\\
+\\ \pause
+Every transaction must be signed by the \alert{Private Key} that is paired with the senders \alert{Public Key}.\\
+\\ \pause
+Anyone can easily verify that a transaction was created by the sender \textbf{only}.
+\end{frame}
+
+
+\section{Tell Me More...}
+
+
+\begin{frame}{Further Reading (Bitcoin Related)}
+\begin{itemize}
+  \item Myths \cite{Kikvadze_2018,Top_10_Myths_About_Bitcoin_2016}
+  \item Environmental Impact of Bitcoin \cite{Buntix,Ou_2017,steembusiness_2017,Kobie}
+  \item Merkle Trees \cite{Ray_2017,Merkle}
+  \item Segwit and Lightning Network \cite{Investopedia_2017,Lee_2017,Wirdum,Waee_Digital_Ltd}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Further Reading (Future of Blockchain)}
+\begin{itemize}
+  \item Proof of Stake \cite{Investopedia_2017b,Rosic_2017}
+  \item Smart Contracts \cite{frozeman_vbuterin_chriseth_debris_2018,K_2017}
+  \item DAG currencies (IOTA, Nano, ByteBall) \cite{Ryszkiewicz,jimmco_2017,Popov_2017}
+  \item Hashgraph \cite{Baird_2016,Samman}
+
+\end{itemize}
+\end{frame}
+
+\section{Thank you...any questions?}
+
+
+\begin{frame}[allowframebreaks]
+  \printbibliography
+\end{frame}
+
+\end{document}
